@@ -1,10 +1,7 @@
 #pragma once
 
-namespace ScannerLibrary
+class Scanner
 {
-	class Scanner
-	{
-	public:
-		int Scan(const char*, ...);
-	};
-}
+public:
+	int Scan(const char*, ...);
+};
